@@ -1,0 +1,24 @@
+.work-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.work-link h3, .work-link p {
+  text-decoration: none;
+  color: inherit;
+}
+
+.work-link:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.work-link:hover h3, .work-link:hover p {
+  text-decoration: none;
+  color: inherit;
+}
